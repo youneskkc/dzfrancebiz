@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-11-r2",
+  "label": "الإصدار الثاني",
+  "as_of": "2026-11-11",
+  "generated_at": "2026-11-11T11:20:00+01:00",
+  "source_cutoff": "2026-11-11",
+  "status": "published",
+  "companies": [
+    {
+      "id": "805321650",
+      "name": "ADBI",
+      "legal_name": "A.D.B.I. (ADBI - MICROCORE)",
+      "siren": "805321650",
+      "website": "https://www.adbi.fr/",
+      "location": {
+        "city": "باريس (Paris)",
+        "region": "إيل دو فرانس",
+        "address": "5 Rue du Banquier, 75013 Paris"
+      },
+      "activity": "استشارات البيانات والذكاء الاصطناعي؛ رمز NAF 70.22Z لاستشارات الأعمال والإدارة.",
+      "status": "current",
+      "relationships": [
+        {
+          "type": "founder",
+          "person": "Ahcene Ouguenoune",
+          "period_start": "2014",
+          "period_end": null,
+          "summary": "تذكر مقابلة منشورة أنه وُلد ونشأ في الجزائر، ثم انتقل إلى باريس للدراسة، وأسّس ADBI في فرنسا سنة 2014. هذا إثبات لصلة التأسيس والهجرة، وليس ادعاءً بجنسيته الحالية."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "visa-algerie-ahcene-ouguenoune-2021",
+          "source": "Visa Algérie، مقابلة تعريفية",
+          "url": "https://www.visa-algerie.com/ahcene-ouguenoune-createur-de-solutions-et-de-talents/",
+          "published_at": "2021-12-04",
+          "verified_at": "2026-11-11",
+          "summary": "تصف المقابلة Ahcene Ouguenoune بأنه مؤسس ADBI، وتذكر أنه وُلد ونشأ في الجزائر ثم انتقل إلى باريس لإكمال دراسته، وأنه أنشأ الشركة سنة 2014."
+        },
+        {
+          "id": "lefigaro-adbi-founder-2018",
+          "source": "Le Figaro، محتوى بالشراكة مع Médias France",
+          "url": "https://www.lefigaro.fr/economie/le-rendez-vous-des-pme/2018/09/17/20013-20180917ARTFIG00057-ahcene-ouguenoune-adbi-les-problematiques-de-data-management-et-de-business-intelligence.php",
+          "published_at": "2018-09-17",
+          "verified_at": "2026-11-11",
+          "summary": "يعرّف التقرير Ahcene Ouguenoune بأنه مؤسس ADBI ويؤكد أن الشركة أُنشئت سنة 2014 ونشاطها استشارات ذكاء الأعمال وإدارة البيانات. يوضح الناشر أن المحتوى بالشراكة ولم تُعدّه هيئة التحرير، لذلك استُخدم كتأييد إضافي لا كمصدر مستقل وحيد."
+        },
+        {
+          "id": "api-gouv-adbi-siren-805321650",
+          "source": "API Recherche d'Entreprises الحكومية، بيانات INSEE",
+          "url": "https://recherche-entreprises.api.gouv.fr/search?q=805321650",
+          "verified_at": "2026-11-11",
+          "summary": "الاستعلام الحكومي برقم SIREN 805321650 يعيد A.D.B.I. (ADBI - MICROCORE) بحالة إدارية نشطة، تاريخ إنشاء 2014-10-10، ومقرها في باريس. رمز النشاط 70.22Z."
+        },
+        {
+          "id": "annuaire-gouv-adbi-805321650",
+          "source": "Annuaire des Entreprises، الدليل الحكومي الفرنسي",
+          "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/a-d-b-i-adbi-microcore-805321650",
+          "verified_at": "2026-11-11",
+          "summary": "السجل الحكومي يعرض A.D.B.I. كمنشأة نشطة، ويطابق رقم SIREN والعنوان 5 Rue du Banquier, 75013 Paris وتاريخ الإنشاء 10 أكتوبر 2014."
+        },
+        {
+          "id": "adbi-official-site-2026",
+          "source": "الموقع الرسمي لشركة ADBI",
+          "url": "https://www.adbi.fr/",
+          "verified_at": "2026-11-11",
+          "summary": "الموقع الرسمي يعرض نشاط الشركة الحالي في استشارات البيانات والذكاء الاصطناعي، ويذكر عنوان مكتبها في باريس."
+        }
+      ]
+    }
+  ],
+  "changes": {
+    "added": [
+      {
+        "siren": "805321650",
+        "name": "ADBI"
+      }
+    ],
+    "updated": [],
+    "retired": []
+  },
+  "note": "يضيف هذا الإصدار ADBI بعد توثيق صلة التأسيس والهجرة والتحقق من تسجيل الشركة ونشاطها. لا يستنتج جنسية المؤسس من الاسم أو الأصل وحدهما. يحفظ الإصدار الأول كما نُشر دون تعديل."
+}

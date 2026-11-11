@@ -9,7 +9,7 @@
 ## بنية البيانات
 
 - `public/data/releases/index.json`: فهرس الإصدارات.
-- `public/data/releases/YYYY-MM-DD/release.json`: لقطة كاملة لإصدار محدد، وتبقى الإصدارات القديمة محفوظة.
+- `public/data/releases/YYYY-MM-DD/release.json`: لقطة كاملة لإصدار محدد، وتبقى الإصدارات القديمة محفوظة. إذا صدر أكثر من إصدار في اليوم نفسه، يلحق بمعرّف المجلد رقم مثل `-r2`، بينما يبقى تاريخ الإصدار داخل الملف.
 - `public/app.js`: العرض والبحث والفلاتر.
 - `scripts/build.sh`: بناء النسخة المنشورة في `dist/`.
 - `.github/workflows/pages.yml`: بناء ونشر GitHub Pages بعد الدمج أو عند التشغيل اليدوي.
