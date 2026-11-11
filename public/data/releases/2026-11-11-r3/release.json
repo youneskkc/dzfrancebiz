@@ -1,0 +1,261 @@
+{
+  "id": "2026-11-11-r3",
+  "label": "الإصدار الثالث",
+  "as_of": "2026-11-11",
+  "generated_at": "2026-11-11T11:43:00+01:00",
+  "source_cutoff": "2026-11-11",
+  "status": "published",
+  "companies": [
+    {
+      "id": "805321650",
+      "name": "ADBI",
+      "legal_name": "A.D.B.I. (ADBI - MICROCORE)",
+      "siren": "805321650",
+      "website": "https://www.adbi.fr/",
+      "location": {
+        "city": "باريس (Paris)",
+        "region": "إيل دو فرانس",
+        "address": "5 Rue du Banquier, 75013 Paris"
+      },
+      "activity": "استشارات البيانات والذكاء الاصطناعي؛ رمز NAF 70.22Z لاستشارات الأعمال والإدارة.",
+      "status": "current",
+      "relationships": [
+        {
+          "type": "founder",
+          "person": "Ahcene Ouguenoune",
+          "period_start": "2014",
+          "period_end": null,
+          "summary": "تذكر مقابلة منشورة أنه وُلد ونشأ في الجزائر، ثم انتقل إلى باريس للدراسة، وأسّس ADBI في فرنسا سنة 2014. هذا إثبات لصلة التأسيس والهجرة، وليس ادعاءً بجنسيته الحالية."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "visa-algerie-ahcene-ouguenoune-2021",
+          "source": "Visa Algérie، مقابلة تعريفية",
+          "url": "https://www.visa-algerie.com/ahcene-ouguenoune-createur-de-solutions-et-de-talents/",
+          "published_at": "2021-12-04",
+          "verified_at": "2026-11-11",
+          "summary": "تصف المقابلة Ahcene Ouguenoune بأنه مؤسس ADBI، وتذكر أنه وُلد ونشأ في الجزائر ثم انتقل إلى باريس لإكمال دراسته، وأنه أنشأ الشركة سنة 2014."
+        },
+        {
+          "id": "lefigaro-adbi-founder-2018",
+          "source": "Le Figaro، محتوى بالشراكة مع Médias France",
+          "url": "https://www.lefigaro.fr/economie/le-rendez-vous-des-pme/2018/09/17/20013-20180917ARTFIG00057-ahcene-ouguenoune-adbi-les-problematiques-de-data-management-et-de-business-intelligence.php",
+          "published_at": "2018-09-17",
+          "verified_at": "2026-11-11",
+          "summary": "يعرّف التقرير Ahcene Ouguenoune بأنه مؤسس ADBI ويؤكد أن الشركة أُنشئت سنة 2014 ونشاطها استشارات ذكاء الأعمال وإدارة البيانات. يوضح الناشر أن المحتوى بالشراكة ولم تُعدّه هيئة التحرير، لذلك استُخدم كتأييد إضافي لا كمصدر مستقل وحيد."
+        },
+        {
+          "id": "api-gouv-adbi-siren-805321650",
+          "source": "API Recherche d'Entreprises الحكومية، بيانات INSEE",
+          "url": "https://recherche-entreprises.api.gouv.fr/search?q=805321650",
+          "verified_at": "2026-11-11",
+          "summary": "الاستعلام الحكومي برقم SIREN 805321650 يعيد A.D.B.I. (ADBI - MICROCORE) بحالة إدارية نشطة، تاريخ إنشاء 2014-10-10، ومقرها في باريس. رمز النشاط 70.22Z."
+        },
+        {
+          "id": "annuaire-gouv-adbi-805321650",
+          "source": "Annuaire des Entreprises، الدليل الحكومي الفرنسي",
+          "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/a-d-b-i-adbi-microcore-805321650",
+          "verified_at": "2026-11-11",
+          "summary": "السجل الحكومي يعرض A.D.B.I. كمنشأة نشطة، ويطابق رقم SIREN والعنوان 5 Rue du Banquier, 75013 Paris وتاريخ الإنشاء 10 أكتوبر 2014."
+        },
+        {
+          "id": "adbi-official-site-2026",
+          "source": "الموقع الرسمي لشركة ADBI",
+          "url": "https://www.adbi.fr/",
+          "verified_at": "2026-11-11",
+          "summary": "الموقع الرسمي يعرض نشاط الشركة الحالي في استشارات البيانات والذكاء الاصطناعي، ويذكر عنوان مكتبها في باريس."
+        }
+      ]
+    },
+    {
+      "id": "814428785",
+      "name": "LegalPlace",
+      "legal_name": "STARTPLACE",
+      "siren": "814428785",
+      "website": "https://www.legalplace.fr/",
+      "location": {
+        "city": "Nanterre",
+        "region": "Île-de-France",
+        "address": ""
+      },
+      "activity": "إصدار برمجيات النظام والشبكات (NAF/APE 58.29A)",
+      "status": "current",
+      "relationships": [
+        {
+          "type": "founder",
+          "person": "Racem Flazi",
+          "period_start": "2016",
+          "period_end": null,
+          "summary": "تذكر صفحة LegalPlace الرسمية أن Racem Flazi أسس المنصة مع مؤسسين مشاركين. وتربط الإشعارات القانونية الرسمية الموقع بالكيان STARTPLACE، فيما يثبت السجل الحكومي نشاط الكيان. وتذكر مصادر صحفية مستقلة وصول Flazi من الجزائر إلى فرنسا؛ لا يُستنتج من ذلك أي ادعاء بشأن جنسيته."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "814428785-E1",
+          "source": "Annuaire des Entreprises الحكومي (INSEE / RNE)",
+          "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/814428785",
+          "published_at": "",
+          "verified_at": "2026-11-11",
+          "summary": "يعرض السجل الرسمي STARTPLACE برقم SIREN 814428785 ككيان نشط في Nanterre، ونشاط 58.29A؛ ويذكر تحديث بياناته في 22 أكتوبر 2026."
+        },
+        {
+          "id": "814428785-E2",
+          "source": "LegalPlace، الإشعارات القانونية الرسمية",
+          "url": "https://www.legalplace.fr/mentions-legales/",
+          "published_at": "",
+          "verified_at": "2026-11-11",
+          "summary": "تنص الإشعارات على أن موقع legalplace.fr يصدر عن StartPlace، وهي شركة SAS برقم SIREN 814428785، وتذكر Racem Flazi مسؤولاً عن النشر. هذا يربط الاسم التجاري LegalPlace بالكيان المسجل."
+        },
+        {
+          "id": "814428785-E3",
+          "source": "LegalPlace، صفحة تاريخ الشركة الرسمية",
+          "url": "https://www.legalplace.fr/about",
+          "published_at": "",
+          "verified_at": "2026-11-11",
+          "summary": "تذكر الصفحة تأسيس LegalPlace عام 2016 بواسطة Racem Flazi وشريكين مؤسسين."
+        },
+        {
+          "id": "814428785-E4",
+          "source": "Le Courrier de l'Atlas",
+          "url": "https://www.lecourrierdelatlas.com/entrepreneur-des-deux-rives-racem-flazi-defenseur-du-droit-pour-tous-11077/",
+          "published_at": "2018-03-28",
+          "verified_at": "2026-11-11",
+          "summary": "تذكر التغطية أن Flazi من مواليد وهران ووصل إلى فرنسا عام 2009، وتربطه بإطلاق LegalPlace عام 2016؛ لا تثبت جنسيته."
+        },
+        {
+          "id": "814428785-E5",
+          "source": "Presse Agence",
+          "url": "https://presseagence.fr/paris-racem-flazi-legalplace-lia-nest-plus-un-outil-mais-un-moteur-de-transformation/",
+          "published_at": "2026-10-01",
+          "verified_at": "2026-11-11",
+          "summary": "تقول المادة إن Flazi وصل من الجزائر وتصفه بالمؤسس المشارك والرئيس التنفيذي لـLegalPlace، التي أنشئت عام 2016 مع شريكين."
+        }
+      ]
+    },
+    {
+      "id": "511110645",
+      "name": "HIS (Hôtels Invest Sport)",
+      "legal_name": "HOTELS INVEST SPORT",
+      "siren": "511110645",
+      "website": "https://www.groupehis.com/",
+      "location": {
+        "city": "Albi",
+        "region": "Occitanie",
+        "address": "16 Avenue Gambetta, 81000 Albi"
+      },
+      "activity": "أنشطة الشركات القابضة (NAF 64.20Z).",
+      "status": "current",
+      "relationships": [
+        {
+          "type": "founder",
+          "person": "Jean-Louis Zévaco",
+          "period_start": "2008",
+          "period_end": null,
+          "summary": "يذكر مصدر صحفي موثوق أن Zévaco وصل من الجزائر إلى فرنسا في طفولته وأسّس مجموعة HIS سنة 2008. يربط مصدر مهني مستقل اختصار HIS باسم Hôtels Invest Sport، ويسجل الدليل الحكومي Zévaco مديراً للكيان القانوني النشط."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "511110645-E1",
+          "source": "Annuaire des Entreprises الحكومي الفرنسي (INSEE وDGFiP)",
+          "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/hotels-invest-sport-hotels-invest-sport-511110645",
+          "published_at": "",
+          "verified_at": "2026-11-11",
+          "summary": "يسجل الكيان HOTELS INVEST SPORT، SIREN 511110645، بوصفه نشطاً. عنوان المقر 16 Avenue Gambetta, 81000 Albi، والنشاط شركات قابضة NAF 64.20Z."
+        },
+        {
+          "id": "511110645-E2",
+          "source": "Annuaire des Entreprises الحكومي، صفحة المديرين",
+          "url": "https://annuaire-entreprises.data.gouv.fr/dirigeants/511110645",
+          "published_at": "",
+          "verified_at": "2026-11-11",
+          "summary": "تورد صفحة الكيان اسم Jean-Louis Zévaco بصفته Gérant، وتذكر تحديث بيانات المديرين في 11 نوفمبر 2026."
+        },
+        {
+          "id": "511110645-E3",
+          "source": "La Dépêche du Midi",
+          "url": "https://www.ladepeche.fr/2026/05/25/portrait-je-viens-dune-famille-pauvre-donc-jai-beaucoup-travaille-lincroyable-saga-de-jean-louis-zevaco-qui-a-fonde-un-empire-hotelier-apres-etre-13380145.php",
+          "published_at": "2026-05-25",
+          "verified_at": "2026-11-11",
+          "summary": "ينص التقرير على أن Zévaco وصل من الجزائر إلى فرنسا في سن 12 عاماً، واضطر إلى مغادرة البلاد عام 1962، وأنه أسس مجموعة HIS بعد مغادرته Accor. ويذكر أن المجموعة تأسست عام 2008 ومقرها Albi."
+        },
+        {
+          "id": "511110645-E4",
+          "source": "L'Hôtellerie-Restauration",
+          "url": "https://www.lhotellerie-restauration.fr/actualite/reussite-emilie-zevaco-la-passion-du-developpement",
+          "published_at": "2020-06-17",
+          "verified_at": "2026-11-11",
+          "summary": "يعرف التقرير المجموعة العائلية HIS بالاسم الكامل Hôtels Invest Sport، ويذكر تأسيس Jean-Louis Zévaco لها عام 2008."
+        },
+        {
+          "id": "511110645-E5",
+          "source": "الموقع الرسمي لمجموعة HIS",
+          "url": "https://www.groupehis.com/",
+          "published_at": "",
+          "verified_at": "2026-11-11",
+          "summary": "يذكر الموقع الرسمي بدء المجموعة عام 2008، ويسمي Jean-Louis Zévaco رئيساً لها، ويصف نشاطها الفندقي."
+        }
+      ]
+    },
+    {
+      "id": "949619118",
+      "name": "PROCESS MILL",
+      "legal_name": "PROCESS MILL",
+      "siren": "949619118",
+      "website": "",
+      "location": {
+        "city": "Grigny",
+        "region": "Île-de-France",
+        "address": "6 Rue des Bâtisseurs, 91350 Grigny"
+      },
+      "activity": "الميكانيكا الصناعية (NAF/APE 25.62B؛ ويعرض السجل كذلك رمز NAF 2025: 25.53Y).",
+      "status": "current",
+      "relationships": [
+        {
+          "type": "founder",
+          "person": "Yacine Benchettara",
+          "period_start": "2023",
+          "period_end": null,
+          "summary": "يذكر مجلس إقليم إيسون أن Benchettara أسس PROCESS MILL في Grigny ووصل من الجزائر إلى فرنسا في سن العاشرة. ويربطه السجل الحكومي بالكيان بصفة Gérant، ويسجل الكيان نشطاً."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "949619118-E1",
+          "source": "Conseil départemental de l’Essonne، بورتريه Yacine Benchettara",
+          "url": "https://www.essonne.fr/actualites/yacine-benchettara-un-talent-des-cites-implante-a-grigny",
+          "published_at": "2026-07-20",
+          "verified_at": "2026-11-11",
+          "summary": "تذكر الصفحة المؤسسية أن Benchettara أسس PROCESS MILL في Grigny، وأنه وصل من الجزائر في سن العاشرة. وتربط تأسيس شركته في إقليم Essonne بعام 2023."
+        },
+        {
+          "id": "949619118-E2",
+          "source": "API Recherche d’Entreprises الحكومية",
+          "url": "https://recherche-entreprises.api.gouv.fr/search?q=PROCESS%20MILL&per_page=10",
+          "published_at": "",
+          "verified_at": "2026-11-11",
+          "summary": "تعرض النتيجة SIREN 949619118 والاسم PROCESS MILL والحالة الإدارية A النشطة، وتدرج Yacine Benchettara بصفة Gérant. المقر النشط في Grigny والنشاط ميكانيكا صناعية NAF 25.62B."
+        },
+        {
+          "id": "949619118-E3",
+          "source": "Annuaire des Entreprises، الدليل الحكومي الفرنسي",
+          "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/process-mill-process-mill-949619118",
+          "published_at": "",
+          "verified_at": "2026-11-11",
+          "summary": "يؤكد الدليل اسم PROCESS MILL ورقم SIREN 949619118 والحالة النشطة والعنوان والنشاط، ويذكر إنشاء الوحدة القانونية في 2 مارس 2023."
+        }
+      ]
+    }
+  ],
+  "changes": {
+    "added": [
+      {"siren": "814428785", "name": "LegalPlace"},
+      {"siren": "511110645", "name": "HIS (Hôtels Invest Sport)"},
+      {"siren": "949619118", "name": "PROCESS MILL"}
+    ],
+    "updated": [],
+    "retired": []
+  },
+  "note": "من المرشحين الإضافيين الذين فُحصوا في هذه الدفعة، اجتازت LegalPlace وHIS وPROCESS MILL معيار الإثبات وأضيفت هنا. لم تُدرج Dromadaire لأن المصادر لا تثبت أن المؤسس أنشأ الكيان القانوني الحالي المحدد برقم SIREN. لم يُضف مرشح خامس دون دليل كافٍ. بقي الإصداران السابقان محفوظين دون تغيير."
+}
