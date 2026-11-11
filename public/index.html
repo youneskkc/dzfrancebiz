@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="دليل ثابت موثق للشركات الموجودة في فرنسا ذات الارتباط الجزائري، مع إصدارات تاريخية وأدلة قابلة للمراجعة." />
+    <meta name="theme-color" content="#10221f" />
+    <title>دليل الشركات الجزائرية المرتبطة بفرنسا</title>
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="./" aria-label="العودة إلى الصفحة الرئيسية">
+          <span class="brand-mark" aria-hidden="true">د</span>
+          <span>
+            <strong>دليل الارتباط الجزائري</strong>
+            <small>شركات في فرنسا · إصدارات موثقة</small>
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="التنقل الرئيسي">
+          <a class="active" href="./">الدليل</a>
+          <a href="./releases.html">الإصدارات</a>
+          <a href="./methodology.html">المنهجية</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse-dot"></span> لقطة تاريخية قابلة للمراجعة</p>
+          <h1>شركات فرنسية<br /><em>بارتباط جزائري موثق.</em></h1>
+          <p class="hero-intro">دليل محافظ لا يخمّن الجنسية ولا يخلط بين المؤسس والمالك والمدير. كل نتيجة تحتاج إلى دليل قابل للفتح، وتاريخ تحقق، وعلاقة محددة.</p>
+          <div class="hero-links">
+            <a class="text-link" href="./methodology.html">كيف نقرر الإدراج؟ <span>←</span></a>
+            <a class="text-link muted-link" href="./releases.html">تصفح سجل الإصدارات <span>←</span></a>
+          </div>
+        </div>
+        <div class="hero-stamp" aria-label="بيانات الإصدار الأخير">
+          <span class="stamp-label">الإصدار الأخير</span>
+          <strong id="hero-release-date">—</strong>
+          <span id="hero-release-label">جارٍ التحميل</span>
+        </div>
+      </section>
+
+      <section class="stats-strip section-shell" aria-label="إحصاءات الإصدار">
+        <div class="stat-block"><span class="stat-value" id="stat-total">—</span><span class="stat-label">شركة معتمدة</span></div>
+        <div class="stat-block"><span class="stat-value" id="stat-current">—</span><span class="stat-label">مؤهلة حالياً</span></div>
+        <div class="stat-block"><span class="stat-value" id="stat-previous">—</span><span class="stat-label">من الإصدارات السابقة</span></div>
+        <div class="stat-block"><span class="stat-value" id="stat-sources">—</span><span class="stat-label">دليل ومصدر</span></div>
+        <div class="last-updated"><span>آخر تحقق</span><strong id="last-updated-date">—</strong></div>
+      </section>
+
+      <section class="directory section-shell" aria-labelledby="directory-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">المجموعة المنشورة</p>
+            <h2 id="directory-title">النتائج المعتمدة</h2>
+          </div>
+          <div class="view-toggle" role="group" aria-label="نطاق النتائج">
+            <button class="toggle-button active" data-scope="current" type="button">الإصدار الحالي</button>
+            <button class="toggle-button" data-scope="all" type="button">كل الإصدارات</button>
+          </div>
+        </div>
+
+        <div class="filters" aria-label="تصفية الدليل">
+          <label class="search-field">
+            <span class="sr-only">ابحث باسم الشركة أو المدينة أو SIREN</span>
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <input id="search-input" type="search" placeholder="ابحث بالاسم، المدينة أو SIREN" autocomplete="off" />
+          </label>
+          <label class="select-field">
+            <span class="sr-only">نوع الارتباط</span>
+            <select id="relationship-filter">
+              <option value="all">كل أنواع الارتباط</option>
+              <option value="owner">ملكية جزائرية موثقة</option>
+              <option value="manager">إدارة جزائرية موثقة</option>
+              <option value="founder">تأسيس من مهاجر جزائري</option>
+            </select>
+          </label>
+          <label class="select-field">
+            <span class="sr-only">المنطقة</span>
+            <select id="region-filter"><option value="all">كل المناطق</option></select>
+          </label>
+        </div>
+
+        <div class="results-meta"><span id="results-count">جارٍ تجهيز النتائج…</span><span class="quality-note"><span class="quality-dot"></span> الثقة العالية فقط</span></div>
+        <div id="results-list" class="results-list" aria-live="polite"></div>
+      </section>
+
+      <section class="principles section-shell">
+        <div class="principle-intro"><p class="eyebrow">ثلاثة ثوابت</p><h2>الدليل قبل الانطباع.</h2></div>
+        <div class="principles-grid">
+          <article><span class="principle-number">01</span><h3>لا تخمين من الاسم</h3><p>لا نعتبر الاسم أو اللغة أو الصورة أو العنوان دليلاً على الجنسية أو الأصل.</p></article>
+          <article><span class="principle-number">02</span><h3>العلاقة محددة</h3><p>نميز بين الملكية والإدارة والتأسيس، ونحفظ بداية العلاقة ونهايتها عندما تتوفر.</p></article>
+          <article><span class="principle-number">03</span><h3>التاريخ محفوظ</h3><p>كل تحديث إصدار جديد. ما كان صحيحاً في تاريخ سابق لا يُمحى من السجل.</p></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-shell footer-inner"><span>دليل الارتباط الجزائري · نسخة ثابتة موثقة</span><span>لا توجد نتائج منشورة دون دليل معتمد.</span></div>
+    </footer>
+    <script src="./app.js" defer></script>
+  </body>
+</html>

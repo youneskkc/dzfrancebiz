@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="description" content="سجل الإصدارات التاريخية لدليل الشركات الجزائرية المرتبطة بفرنسا." /><title>الإصدارات التاريخية · دليل الارتباط الجزائري</title><link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" /><link rel="stylesheet" href="./styles.css" /></head>
+<body>
+<header class="site-header"><div class="header-inner"><a class="brand" href="./"><span class="brand-mark">د</span><span><strong>دليل الارتباط الجزائري</strong><small>شركات في فرنسا · إصدارات موثقة</small></span></a><nav class="main-nav" aria-label="التنقل الرئيسي"><a href="./">الدليل</a><a class="active" href="./releases.html">الإصدارات</a><a href="./methodology.html">المنهجية</a></nav></div></header>
+<main class="section-shell page-content"><p class="eyebrow">الذاكرة الكاملة للمشروع</p><h1>كل إصدار<br /><em>يبقى شاهداً.</em></h1><p>لا نستبدل البيانات القديمة ببيانات جديدة. كل لقطة منشورة تحتفظ بما كان معروفاً ومقبولاً في تاريخها، مع تاريخ الإصدار وملاحظات التغيير.</p><div id="release-list" class="release-list"><div class="empty-state"><div class="empty-icon">…</div><h3>جارٍ تحميل الإصدارات</h3></div></div></main>
+<footer class="site-footer"><div class="section-shell footer-inner"><span>دليل الارتباط الجزائري · نسخة ثابتة موثقة</span><span><a href="./">العودة إلى الدليل ←</a></span></div></footer>
+<script>
+(async () => {
+  const target = document.getElementById('release-list');
+  try {
+    const response = await fetch('./data/releases/index.json', { cache:'no-store' });
+    const data = await response.json();
+    target.innerHTML = (data.releases || []).map((release) => `<article class="release-row"><div class="release-date">${release.as_of}</div><div><strong>${release.label}</strong><p>${release.summary || 'إصدار محفوظ.'}</p></div><div class="release-count">${release.company_count.toLocaleString('ar-FR')} شركة</div></article>`).join('') || '<div class="empty-state"><h3>لا توجد إصدارات</h3></div>';
+  } catch (error) { target.innerHTML = '<div class="empty-state"><h3>تعذر تحميل السجل</h3><p>جرّب إعادة تحميل الصفحة.</p></div>'; }
+})();
+</script>
+</body></html>
